@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<system-settings xmlns="http://www.enkata.com/aal/system/settings">
+  <!--Time is values are ins seconds, memory in bytes-->
+  <!-- memory warn threshold is tranformed to packet-depot size-->
+  <!--All memory values have to multiplied by 1000000 (1024*1024) in code, since these values are measured in megabytes now-->
+  <!--Here is a list of values memory-reset-threshold, packet size, depot size, max-data-size -->
+  <watchdog-settings>
+    <process-management performance-poll-period="10" process-termination-timeout="10" processes-start-try-period="5" processes-start-try-count="200" />
+    <runtime-resources-thresholds cpu-reset-threshold="99" memory-reset-threshold="100" />
+    <video-recorder-resources-thresholds cpu-reset-threshold="99" memory-reset-threshold="1024" />
+    <runtime-project path="c:\Set\Project3.OpenSpan" />
+  </watchdog-settings>
+  <os-extension-settings>
+    <!-- memory warn threshold is tranformed to packet-depot size-->
+    <packet size="1000" duration="1800" depot-size="50" />
+    <raw-data-storage path="%USERPROFILE%\Application Data\Enkata\Activity Tracker\packets\" retries-timeout="30" />
+    <!--Hash types: NONE|SHA1|SHA2 -->
+    <hash type="SHA2" />
+    <encryption keyring-path="%PROGRAMFILES%\Enkata Technologies Inc\Activity Tracker\pubring.gpg" symmetric-encryption="AES-256" />
+    <watchdog timeout="60000" />
+    <!--
+    symmetric-encryption enumeration:CAST5,AES-256.
+    Default values:
+    framerate="3"
+    quality-factor="34"
+    symmetric-encryption="AES-256"
+    -->
+    <screen-recording storage-path="%USERPROFILE%\Application Data\Enkata\Activity Tracker\video\" keyring-path="%PROGRAMFILES%\Enkata Technologies Inc\Activity Tracker\pubring.gpg" symmetric-encryption="AES-256" fragment-duration="60" framerate="3" quality-factor="34" enabled="true" />
+    <behaviors>
+      <uptime enabled="true" />
+      <idle-time enabled="true" />
+      <hotkeys enabled="true" />
+      <app-focus-change enabled="true" />
+      <lock-unlock enabled="true" />
+    </behaviors>
+  </os-extension-settings>
+  <data-transfer-settings poll-period="1" max-data-size="20">
+    <item-to-transfer name="packets" source="%USERPROFILE%\Application Data\Enkata\Activity Tracker\packets\*.packet" dest="C:\DataOutput\%FILE.CREATION.DATE%\PACKETS\%FILE%" priority="0" compression="false" />
+    <item-to-transfer name="screen-recordings" source="%USERPROFILE%\Application Data\Enkata\Activity Tracker\video\*.recording" dest="C:\DataOutput\%FILE.CREATION.DATE%\RECORDINGS\%FILE%" priority="5" compression="false" />
+    <!-- Collecting Crash dumps in WinXP-->
+    <item-to-transfer name="crash dumps WinXP" source="%ALLUSERSPROFILE%\Application Data\Microsoft\Dr Watson\*.dmp" dest="C:\DataOutput\%FILE.CREATION.DATE%\LOGS\%HASHED_ID_SHA2%.%SESSION_ID%.%FILE.CREATION.DATE%.%FILE.CREATION.TIME%.%FILE%" priority="10" compression="false" />
+    <!-- Collecting Crash dumps in Win2003-->
+    <item-to-transfer name="crash dumps Win2003" source="%USERPROFILE%\Local Settings\Application Data\Microsoft\Dr Watson\*.dmp" dest="c:\DataOutput\%FILE.CREATION.DATE%\LOGS\%HASHED_ID_SHA2%.%SESSION_ID%.%FILE.CREATION.DATE%.%FILE.CREATION.TIME%.%FILE%" priority="10" compression="false" />
+    <!-- Collecting Crash dumps in Win7-->
+    <item-to-transfer name="crash dumps Win7" source="%LOCALAPPDATA%\CrashDumps\*.dmp" dest="C:\DataOutput\%FILE.CREATION.DATE%\LOGS\%HASHED_ID_SHA2%.%SESSION_ID%.%FILE.CREATION.DATE%.%FILE.CREATION.TIME%.%FILE%" priority="10" compression="false" />
+    <!-- Collecting OpenSpan logs-->
+    <item-to-transfer name="OS log information" source="%USERPROFILE%\Application Data\OpenSpan Studio for VS 2008\*.txt" dest="C:\DataOutput\%FILE.CREATION.DATE%\LOGS\%HASHED_ID_SHA2%.%SESSION_ID%.%FILE.MODIFICATION.DATE%.%FILE.MODIFICATION.TIME%.os_runtime.log" priority="15" compression="false" />
+    <item-to-transfer name="log information" source="%USERPROFILE%\Application Data\Enkata\Activity Tracker\log\*.log" dest="C:\DataOutput\%FILE.CREATION.DATE%\LOGS\%HASHED_ID_SHA2%.%SESSION_ID%.%FILE%" priority="15" compression="false" />
+  </data-transfer-settings>
+</system-settings>

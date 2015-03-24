@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="true">
+  <TopNode>[0-1300]D:\Git\streamers-tests\MailStreamersTest\bin\Release\EmailSender.dll</TopNode>
+  <SelectedNode>[0-1299]TestMailStreamers.ExchangeStreamerTest+LoadTest.SendMassiveEmailsFromGmailAccounts</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1300]D:\Git\streamers-tests\MailStreamersTest\bin\Release\EmailSender.dll" Expanded="true" />
+    <Node UniqueName="[0-1301]TestMailStreamers" Expanded="true" />
+    <Node UniqueName="[0-1209]TestMailStreamers.ExchangeStreamerTest+LoadTest" Expanded="true" />
+    <Node UniqueName="[0-1299]TestMailStreamers.ExchangeStreamerTest+LoadTest.SendMassiveEmailsFromGmailAccounts" Checked="true" />
+    <Node UniqueName="[0-1091]TestMailStreamers.ExchangeStreamerTest+TestCalendarEvents" Expanded="true" />
+    <Node UniqueName="[0-1015]TestMailStreamers.ExchangeStreamerTest+TestIncomingOutlookMessages" Expanded="true" />
+    <Node UniqueName="[0-1000]TestMailStreamers.ExchangeStreamerTest+TestOutcomingOutlookMessages" Expanded="true" />
+    <Node UniqueName="[0-1001]TestMailStreamers.ExchangeStreamerTest+TestOutcomingOutlookMessages.SendMailOutlook_SingleRecipentTo" Expanded="true" />
+  </Nodes>
+</VisualState>

@@ -1,0 +1,23 @@
+<test name="Acceptance">
+  <parameter name="LocationInstalFile" value="c:\Set"/>
+  <parameter name="LocationCalc" value="c:\Set\calc.exe"/>
+  <parameter name="DttPath" value="C:\DataOutput"/>
+  <parameter name="TempFolder" value="c:\PacketKK"/>
+  <parameter name="PathToDecriptFile" value="C:\Set"/>
+  <parameter name="NameSystemSettings" value="SystemSettings.xml"/>  
+  <parameter name="ProjectPath" value="c:\SetKK\AA_Project.OpenSpan"/>
+  <parameter name="From" value="c:\SetKK\"/>
+  <parameter name="To" value="\\vmurashko-l1\share\slava.xml"/>
+  <parameter name="Users" value="2"/>
+  <parameter name="Delay" value="1000"/>
+  <parameter name="ShareFolder" value="\\enkata-vm1\SHARE\"/>
+<parameter name="OperatorId" value="H644"/>
+<parameter name="PasswordId" value="Enkata#1"/>
+<parameter name="PaymentId" value="tst1kk"/>
+<parameter name="PasswordPay" value="konsK#01"/>
+<parameter name="ResearchId" value="tr91kk"/>
+<parameter name="PasswordRes" value="konsK#01"/>
+<parameter name="DocumentNumber" value="0431202304001"/>
+<parameter name="SN" value="9"/>
+<parameter name="QuantityPackets" value="6"/>
+</test>

@@ -1,0 +1,18 @@
+<test name="Acceptance">
+  <parameter name="LocationInstalFile" value="c:\Set"/>
+  <parameter name="LocationCalc" value="c:\Set\calc.exe"/>
+  <parameter name="DttPath" value="C:\DataOutput"/>
+  <parameter name="TempFolder" value="c:\Packet"/>
+  <parameter name="PathToDecriptFile" value="C:\Set"/>
+  <parameter name="NameSystemSettings" value="SystemSettings.xml"/>  
+  <parameter name="NameServiceWd" value="Activity Tracker Watchdog"/>  
+  <parameter name="NameServiceDtt" value="Activity Tracker Data Transfer Tool"/>
+  <parameter name="NameVideoRecordingHost" value="Enkata.Analytics.VideoRecordingHost"/>  
+  <parameter name="NameSystemSettings" value="SystemSettings.xml"/>
+  <parameter name="ProjectPath" value="c:\Set\signa.OpenSpan"/>
+  <parameter name="From" value="c:\Set\"/>
+  <parameter name="To" value="\\vmurashko-l1\share\slava.xml"/>
+  <parameter name="Users" value="2"/>
+  <parameter name="Delay" value="1000"/>
+  <parameter name="ShareFolder" value="\\enkata-vm1\SHARE\"/>
+</test>
