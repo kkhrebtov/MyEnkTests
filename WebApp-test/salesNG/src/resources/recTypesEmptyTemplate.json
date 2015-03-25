@@ -1,0 +1,56 @@
+[
+    {
+        "ext_id": "opp_add_contact",
+        "name": "Add Contact",
+        "explanation": "There are no contacts on an opportunity and account. <br/>Recommended: Adding contacts.",
+        "summary": "Forecast: <b>{!ForecastCategoryName}</b><br/>Deal Size: <b>{!Amount}</b><br/> Current Stage: <b>{!StageName}</b><br/>Close Date: <b>{!CloseDate}</b><br/>"
+    },
+    {
+        "ext_id": "opp_deal_unlikely",
+        "name": "Deal Unlikely - Take Action",
+        "explanation": "This deal is under risk because Prospect Engagement is low.  <br/>Recommended: Taking an action on this deal ASAP.",
+        "summary": "Forecast: <b>{!ForecastCategoryName}</b><br/>Deal Size: <b>{!Amount}</b><br/>Current Stage: <b>{!StageName}</b><br/>Close Date: <b>{!CloseDate}</b><br/>"
+    },
+    {
+        "ext_id": "lead_eval_lead_for_close",
+        "name": "Evaluate Lead for Closing",
+        "explanation": "This lead has not been touched for a long time. <br/>Recommended: Closing this lead as disqualified.",
+        "summary": "Forecast: <b>{!ForecastCategoryName}</b><br/>Deal Size: <b>{!Amount}</b><br/>Current Stage: <b>{!StageName}</b><br/>Close Date: <b>{!CloseDate}</b><br/>"
+    },
+    {
+        "ext_id": "opp_eval_opp_for_closing",
+        "name": "Evaluate Opportunity for Closing",
+        "explanation": "This deal has not been touched for a long time. <br/>Recommended: Closing this opportunity as lost.",
+        "summary": "Forecast: <b>{!ForecastCategoryName}.</b><br/>Deal Size: <b>{!Amount}</b><br/>Current Stage: <b>{!StageName}</b><br/>Close Date: <b>{!CloseDate}</b><br/>"
+    },
+    {
+        "ext_id": "opp_increase_scope",
+        "name": "Increase Scope of Interactions",
+        "explanation": "Only one contact from {!Account.Name} is involved in communication. <br/>Recommended: Contacting other people who will participate in making a purchase decision.",
+        "summary": "Forecast: <b>{!ForecastCategoryName}</b><br/>Deal Size: <b>{!Amount}</b><br/>Current Stage: <b>{!StageName}</b><br/>Close Date: <b>{!CloseDate}</b><br/>"
+    },
+    {
+        "ext_id": "lead_take_action",
+        "name": "New Lead - Take Action",
+        "explanation": "This is a new lead for which you have not taken any action yet. <br/>Recommended: Emailing or calling the lead.",
+        "summary": "Forecast: <b>{!ForecastCategoryName}</b><br/>Deal Size: <b>{!Amount}</b><br/>Current Stage: <b>{!StageName}</b><br/>Close Date: <b>{!CloseDate}</b><br/>"
+    },
+    {
+        "ext_id": "opp_time_to_call",
+        "name": "Time to Call",
+        "explanation": "You have been trying to reach contacts via email for a while but without success. Recommended: Calling them instead.",
+        "summary": "Forecast: <b>{!ForecastCategoryName}</b><br/> Deal Size: <b>{!Amount}</b><br/> Current Stage: <b>{!StageName}</b><br/> Close Date: <b>{!CloseDate}</b><br/>"
+    },
+    {
+        "ext_id": "opp_time_to_touch_base",
+        "name": "Time to Touch Base",
+        "explanation": "You have not communicated with contacts for a while. <br/>Recommended: Reaching out to contacts.",
+        "summary": "Forecast: <b>{!ForecastCategoryName}</b><br/>Deal Size: <b>{!Amount}</b><br/>Current Stage: <b>{!StageName}</b><br/>Close Date: <b>{!CloseDate}</b><br/>"
+    },
+    {
+        "ext_id": "opp_upd_close_date_high_risk",
+        "name": "Update Close Date",
+        "explanation": "There is a high risk of not closing this deal on {!CloseDate}. <br/>Recommended: Changing the close date.",
+        "summary": "Forecast: <b>{!ForecastCategoryName}</b><br/>Deal Size: <b>{!Amount}</b><br/>Current Stage: <b>{!StageName}</b><br/>Close Date: <b>{!CloseDate}</b><br/>"
+        }
+]

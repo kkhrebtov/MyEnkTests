@@ -1,0 +1,174 @@
+[
+    {
+        "ext_id": "rec1",
+        "type_id": "opp_deal_unlikely",
+        "obj_type": "Opportunity",
+        "obj_id": "006j00000044i2j",
+        "priority": "1",
+        "status": "New",
+        "context": [
+            {
+                "action_id": "action_send_mail",
+                "key": "dummy",
+                "value": "dummy"
+            },
+            {
+                "action_id": "action_make_call",
+                "key": "dummy",
+                "value": "dummy"
+            }
+        ],
+        "contacts": [
+            {
+                "action_id": "action_send_mail",
+                "contact": "003j0000008ryNCAAY"
+            },
+            {
+                "action_id": "action_make_call",
+                "contact": "003j0000008ryNCAAY"
+            }
+        ]
+    },
+    {
+        "ext_id": "rec2",
+        "type_id": "opp_time_to_touch_base",
+        "obj_type": "Opportunity",
+        "obj_id": "006j00000044iFo",
+        "priority": "1",
+        "status": "New",
+        "context": [
+            {
+                "action_id": "action_send_mail",
+                "key": "dummy",
+                "value": "dummy"
+            }
+        ],
+        "contacts": [
+            {
+                "action_id": "action_send_mail",
+                "contact": "003j0000008rylKAAQ"
+            }
+        ]
+    },
+    {
+        "ext_id": "rec3",
+        "type_id": "opp_upd_close_date_high_risk",
+        "obj_type": "Opportunity",
+        "obj_id": "006j00000044i2i",
+        "priority": "1",
+        "status": "New",
+        "context": [
+            {
+                "action_id": "action_change_close_date",
+                "key": "dummy",
+                "value": "dummy"
+            }
+        ],
+        "contacts": []
+    },
+    {
+        "ext_id": "rec4",
+        "type_id": "opp_add_contact",
+        "obj_type": "Opportunity",
+        "obj_id": "006j00000044i1s",
+        "priority": "1",
+        "status": "New",
+        "context": [
+            {
+                "action_id": "action_add_contact",
+                "key": "dummy",
+                "value": "dummy"
+            }
+        ],
+        "contacts": []
+    },
+    {
+        "ext_id": "rec5",
+        "type_id": "opp_upd_close_date_high_risk",
+        "obj_type": "Opportunity",
+        "obj_id": "006j00000044i1s",
+        "priority": "1",
+        "status": "New",
+        "context": [
+            {
+                "action_id": "action_change_close_date",
+                "key": "dummy",
+                "value": "dummy"
+            }
+        ],
+        "contacts": []
+    },
+    {
+        "ext_id": "rec51",
+        "type_id": "opp_upd_close_date_high_risk",
+        "obj_type": "Opportunity",
+        "obj_id": "006j00000044i1u",
+        "priority": "1",
+        "status": "New",
+        "context": [
+            {
+                "action_id": "action_change_close_date",
+                "key": "dummy",
+                "value": "dummy"
+            }
+        ],
+        "contacts": []
+    },
+    {
+        "ext_id": "rec6",
+        "type_id": "opp_eval_opp_for_closing",
+        "obj_type": "Opportunity",
+        "obj_id": "006j00000044iFd",
+        "priority": "1",
+        "status": "New",
+        "context": [
+            {
+                "action_id": "action_close_opp",
+                "key": "dummy",
+                "value": "dummy"
+            },
+            {
+                "action_id": "action_change_close_date",
+                "key": "dummy",
+                "value": "dummy"
+            }
+        ],
+        "contacts": []
+    },
+    {
+        "ext_id": "rec7",
+        "type_id": "opp_deal_unlikely",
+        "obj_type": "Opportunity",
+        "obj_id": "006j00000044i2Y",
+        "priority": "1",
+        "status": "New",
+        "context": [
+            {
+                "action_id": "action_send_mail",
+                "key": "dummy",
+                "value": "dummy"
+            },
+            {
+                "action_id": "action_make_call",
+                "key": "dummy",
+                "value": "dummy"
+            },
+            {
+                "action_id": "action_change_close_date",
+                "key": "dummy",
+                "value": "dummy"
+            }
+
+        ],
+        "contacts": [
+            {
+                "action_id": "action_send_mail",
+                "contact": "003j0000008ryTZAAY"
+            },
+            {
+                "action_id": "action_send_mail",
+                "contact": "003j0000008ryTZAAY"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "ext_id": "PSey8gx88UqYx36Rt6A1LQ",
+        "name": "Add Contact"
+    },
+    {
+        "ext_id": "PSey8gx88UqYx36Rt6A2LQ",
+        "name": "Change Close Date"
+    },
+    {
+        "ext_id": "PSey8gx88UqYx36Rt6A6LQ",
+        "name": "Make Call"
+    },
+    {
+        "ext_id": "PSey8gx88UqYx36Rt6A7LQ",
+        "name": "Send Email"
+    },
+    {
+        "ext_id": "PSey8gx88UqYx36Rt6A8LQ",
+        "name": "Set Up Meeting"
+    },
+    {
+        "ext_id": "PSey8gx88UqYx36Rt6A9LQ",
+        "name": "Close Opportunity"
+    }
+
+]
+

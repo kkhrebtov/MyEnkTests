@@ -1,0 +1,224 @@
+[
+    {
+        "ext_id": "rec18",
+        "type_id": "amountincrease",
+        "obj_type": "Opportunity",
+        "obj_id": "006j0000002CWGd",
+        "priority": "1",
+        "status": "New",
+        "context": [
+            {
+                "action_id": "action_send_mail",
+                "key": "dummy",
+                "value": "dummy"
+            },
+            {
+                "action_id": "action_send_mail",
+                "key": "dummy",
+                "value": "dummy"
+            }
+        ],
+        "contacts": [
+            {
+                "action_id": "action_send_mail",
+                "contact": "003j0000004vGkdAAE"
+            },
+            {
+                "action_id": "action_send_mail",
+                "contact": "003j0000004vGkdAAE"
+            }
+        ]
+    },
+    {
+        "ext_id": "rec19",
+        "type_id": "amountincrease",
+        "obj_type": "Opportunity",
+        "obj_id": "006j0000002CWGe",
+        "priority": "1",
+        "status": "New",
+        "context": [
+            {
+                "action_id": "action_send_mail",
+                "key": "dummy",
+                "value": "dummy"
+            }
+        ],
+        "contacts": [
+            {
+                "action_id": "action_send_mail",
+                "contact": "003j0000004vGklAAE"
+            }
+        ]
+    },
+    {
+        "ext_id": "rec20",
+        "type_id": "amountincrease",
+        "obj_type": "Opportunity",
+        "obj_id": "006j0000002CWGf",
+        "priority": "1",
+        "status": "New",
+        "context": [
+            {
+                "action_id": "action_send_mail",
+                "key": "dummy",
+                "value": "dummy"
+            },
+            {
+                "action_id": "action_send_mail",
+                "key": "dummy",
+                "value": "dummy"
+            }
+        ],
+        "contacts": [
+            {
+                "action_id": "action_send_mail",
+                "contact": "003j0000004vGkTAAU"
+            },
+            {
+                "action_id": "action_send_mail",
+                "contact": "003j0000004vGklAAE"
+            }
+        ]
+    },
+    {
+        "ext_id": "rec21",
+        "type_id": "amountincrease",
+        "obj_type": "Opportunity",
+        "obj_id": "006j0000002CWGf",
+        "priority": "1",
+        "status": "New",
+        "context": [
+            {
+                "action_id": "action_send_mail",
+                "key": "dummy",
+                "value": "dummy"
+            },
+            {
+                "action_id": "action_send_mail",
+                "key": "dummy",
+                "value": "dummy"
+            }
+        ],
+        "contacts": [
+            {
+                "action_id": "action_send_mail",
+                "contact": "003j0000004vGkvAAE"
+            },
+            {
+                "action_id": "action_send_mail",
+                "contact": "003j0000004vGkTAAU"
+            }
+        ]
+    },
+    {
+        "ext_id": "rec22",
+        "type_id": "opp_time_to_touch_base",
+        "obj_type": "Opportunity",
+        "obj_id": "006j0000002CWGd",
+        "priority": "1",
+        "status": "New",
+        "context": [
+            {
+                "action_id": "action_send_mail",
+                "key": "dummy",
+                "value": "dummy"
+            },
+            {
+                "action_id": "action_send_mail",
+                "key": "dummy",
+                "value": "dummy"
+            }
+        ],
+        "contacts": [
+            {
+                "action_id": "action_send_mail",
+                "contact": "003j0000004vGkdAAE"
+            },
+            {
+                "action_id": "action_send_mail",
+                "contact": "003j0000004vGkdAAE"
+            }
+        ]
+    },
+    {
+        "ext_id": "rec23",
+        "type_id": "opp_time_to_touch_base",
+        "obj_type": "Opportunity",
+        "obj_id": "006j0000002CWGe",
+        "priority": "1",
+        "status": "New",
+        "context": [
+            {
+                "action_id": "action_send_mail",
+                "key": "dummy",
+                "value": "dummy"
+            }
+        ],
+        "contacts": [
+            {
+                "action_id": "action_send_mail",
+                "contact": "003j0000004vGklAAE"
+            }
+        ]
+    },
+    {
+        "ext_id": "rec24",
+        "type_id": "opp_time_to_touch_base",
+        "obj_type": "Opportunity",
+        "obj_id": "006j0000002CWGf",
+        "priority": "1",
+        "status": "New",
+        "context": [
+            {
+                "action_id": "action_send_mail",
+                "key": "dummy",
+                "value": "dummy"
+            },
+            {
+                "action_id": "action_send_mail",
+                "key": "dummy",
+                "value": "dummy"
+            }
+        ],
+        "contacts": [
+            {
+                "action_id": "action_send_mail",
+                "contact": "003j0000004vGkTAAU"
+            },
+            {
+                "action_id": "action_send_mail",
+                "contact": "003j0000004vGklAAE"
+            }
+        ]
+    },
+    {
+        "ext_id": "rec25",
+        "type_id": "opp_time_to_touch_base",
+        "obj_type": "Opportunity",
+        "obj_id": "006j0000002CWGf",
+        "priority": "1",
+        "status": "New",
+        "context": [
+            {
+                "action_id": "action_send_mail",
+                "key": "dummy",
+                "value": "dummy"
+            },
+            {
+                "action_id": "action_send_mail",
+                "key": "dummy",
+                "value": "dummy"
+            }
+        ],
+        "contacts": [
+            {
+                "action_id": "action_send_mail",
+                "contact": "003j0000004vGkvAAE"
+            },
+            {
+                "action_id": "action_send_mail",
+                "contact": "003j0000004vGkTAAU"
+            }
+        ]
+    }
+]

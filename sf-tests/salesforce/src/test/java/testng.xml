@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1">
+    <parameter name="url" value="https://login.salesforce.com" />
+    <parameter name="login" value="kkhrebtov@demong.enkata.com" />
+    <parameter name="password" value="Enkata#10" />
+    <parameter name="connectionString" value="jdbc:sqlserver://WIN-6E4GP3KI6T6" />
+    <parameter name="userDb" value="loader" />
+    <parameter name="passwordDb" value="12345" />
+    <parameter name="loginAdmin" value="rsitdikova@e2e.enkata.com" />
+    <parameter name="installationLink"
+               value="https://login.salesforce.com/packaging/installPackage.apexp?p0=04tF0000000Y0d6" />
+    <parameter name="connectionQueue"
+               value="QueueName=sf-queue;Endpoint=sb://auto-tests.servicebus.windows.net/;SharedAccessKeyName=MANAGE;SharedAccessKey=OBshPf6BsRMR+xISQFHYsLK3vI1mgqZAuVEVAboti1E=" />
+    <parameter name="sbNamespaceUrl" value="https://auto-tests.servicebus.windows.net"       />
+    <parameter name="customerIdentifier" value="E2E" />
+    <parameter name="connectionUrl" value="https://e2eapi.enkata.com" />
+
+    <test name="Regression1">
+        <classes>
+            <class name="automationtests.salesng.com.SalesNGTests" />
+            <!-- <class name="automationtests.enkata.com.OpportunityFieldHistory" />-->
+            <!-- <class name="automationtests.enkata.com.HistoricalLoad" /> -->
+            <!--  <class name="automationtests.enkata.com.BulkUpdate200Entity" />-->
+            <!--<class name="automationtests.enkata.com.VersionUpgrade" /> -->
+        </classes>
+    </test>
+</suite>

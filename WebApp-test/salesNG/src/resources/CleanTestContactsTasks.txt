@@ -1,0 +1,20 @@
+List<Contact> badContacts = [select id from Contact where Email like '%example.com'];
+delete badContacts;
+
+List<Task> badTasks       = [select id from Task where WhoId = '003j0000004vGkTAAU'];
+delete badTasks;
+
+List<EnkataNGDev__Recommendation__c> badRemds = [select id from EnkataNGDev__Recommendation__c];
+List<EnkataNGDev__Recommended_Action__c> badRemdActions = [select id from EnkataNGDev__Recommended_Action__c];
+List<EnkataNGDev__Recommendation_Action__c> badRecActions = [select id from EnkataNGDev__Recommendation_Action__c];
+List<EnkataNGDev__Recommendation_Action_Context__c> badRemdsContexts = [select id from EnkataNGDev__Recommendation_Action_Context__c];
+List<EnkataNGDev__Recommendation_Action_Contact__c> badRemdsContacts = [select id from EnkataNGDev__Recommendation_Action_Contact__c];
+List<EnkataNGDev__Recommendation_Type__c> badRemdsTypes = [select id from EnkataNGDev__Recommendation_Type__c];
+
+delete badRemdsContacts;
+delete badRemdsContexts;
+delete badRemdActions;
+delete badRecActions;
+delete badRemds;
+delete badRemdsTypes;
+

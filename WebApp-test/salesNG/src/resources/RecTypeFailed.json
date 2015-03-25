@@ -1,0 +1,68 @@
+[
+  {
+    "ext_id": "WAq6tyG9QoudIL958sG47A",
+    "name": "Committed Deal Unlikely",
+    "explanation": "\n                \n                    The committed deal \"{!Name} ({!Amount})\" is under risk.\n                    Customer Engagement is low and the deal is unlikely to close on the expected date {!CloseDate}.\n                    <br/>\n                    Enkata recommends taking an action on this deal ASAP.\n                \n            ",
+    "summary": "\n                \n                    Forecast: <b>{!ForecastCategory}</b>\n                    <br/>\n                    Deal Size: <b>{!Amount}</b>\n                    <br/>\n                    Current Stage: <b>{!StageName}</b>\n                    <br/>\n                    Close Date: <b>{!CloseDate}</b>\n                \n            "
+  },
+  {
+    "ext_id": "GYBHjjbwR3quqBbuvdPTnQ",
+    "name": "Not Enough Communication",
+    "explanation": "\n                \n                    The \"{!Name} ({!Amount})\" is lacking communication with the client.\n                    Last communication took place {!CreatedDate}.\n                    <br/>\n                    Enkata recommends taking an action on this deal ASAP.\n                \n            ",
+    "summary": "\n                \n                    Forecast: <b>{!ForecastCategory}</b>\n                    <br/>\n                    Deal Size: <b>{!Amount}</b>\n                    <br/>\n                    Current Stage: <b>{!StageName}</b>\n                    <br/>\n                    Close Date: <b>{!CloseDate}</b>\n                \n            "
+  },
+  {
+    "ext_id": "fPc1M-P2RQas8dtPd89SnQ",
+    "name": "Amount Increase Possible",
+    "explanation": "\n                \n                    The \"{!Name} ({!Amount})\" is likely to be extended.\n                    Looks like {!Account.Name} can afford to spend 10% more.\n                    <br/>\n                    Enkata recommends taking an action on this deal ASAP.\n                \n            ",
+    "summary": "\n                \n                    Forecast: <b>{!ForecastCategory}</b>\n                    <br/>\n                    Deal Size: <b>{!Amount}</b>\n                    <br/>\n                    Current Stage: <b>{!StageName}</b>\n                    <br/>\n                    Close Date: <b>{!CloseDate}</b>\n                \n            "
+  },
+  {
+    "ext_id": "opp_deal_unlikely",
+    "name": "Deal Unlikely - Take Action",
+    "explanation": "\n                \n                    This deal is under risk because Prospect Engagement is low. <br/> Recommended: Taking an action on this deal ASAP.\n                \n            ",
+    "summary": "\n                \n                    Forecast: <b>{!ForecastCategory}</b>\n                    <br/>\n                    Deal Size: <b>{!Amount}</b>\n                    <br/>\n                    Current Stage: <b>{!StageName}</b>\n                    <br/>\n                    Close Date: <b>{!CloseDate}</b>\n                \n            "
+  },
+  {
+    "ext_id": "opp_eval_opp_for_closing",
+    "name": "Evaluate Opportunity for Closing",
+    "explanation": "\n                \n                    This deal has not been touched for a long time. <br/>Recommended: Closing this opportunity as lost.\n                \n            ",
+    "summary": "\n                \n                    Forecast: <b>{!ForecastCategory}</b>\n                    <br/>\n                    Deal Size: <b>{!Amount}</b>\n                    <br/>\n                    Current Stage: <b>{!StageName}</b>\n                    <br/>\n                    Close Date: <b>{!CloseDate}</b>\n                \n            "
+  },
+  {
+    "ext_id": "opp_time_to_touch_base",
+    "name": "Time to Touch Base",
+    "explanation": "\n                \n                    You have not communicated with contacts for a while. <br/>Recommended: Reaching out to contacts. \n                \n            ",
+    "summary": "\n                \n                    Forecast: <b>{!ForecastCategory}</b>\n                    <br/>\n                    Deal Size: <b>{!Amount}</b>\n                    <br/>\n                    Current Stage: <b>{!StageName}</b>\n                    <br/>\n                    Close Date: <b>{!CloseDate}</b>\n                \n            "
+  },
+  {
+    "ext_id": "opp_time_to_call",
+    "name": "Time to Call",
+    "explanation": "\n                \n                    You have been trying to reach contacts via email multiple times but without success. <br/>Recommended: Calling them instead.\n                \n            ",
+    "summary": "\n                \n                    Forecast: <b>{!ForecastCategory}</b>\n                    <br/>\n                    Deal Size: <b>{!Amount}</b>\n                    <br/>\n                    Current Stage: <b>{!StageName}</b>\n                    <br/>\n                    Close Date: <b>{!CloseDate}</b>\n                \n            "
+  },
+  {
+    "ext_id": "opp_add_contact",
+    "name": "Add Contact",
+    "explanation": "\n                \n                    There are no contacts on an opportunity and account. <br/>Recommended: Adding contacts.\n                \n            ",
+    "summary": "\n                \n                    Forecast: <b>{!ForecastCategory}</b>\n                    <br/>\n                    Deal Size: <b>{!Amount}</b>\n                    <br/>\n                    Current Stage: <b>{!StageName}</b>\n                    <br/>\n                    Close Date: <b>{!CloseDate}</b>\n                \n            "
+  },
+  {
+    "ext_id": "opp_increase_scope",
+    "name": "Increase Scope of Interactions",
+    "explanation": "\n                \n                    Only one contact from '+ {!AccountName} + ' is involved in communication. <br/>Recommended: Contacting other people who will participate in making a purchase decision.\n                \n            ",
+    "summary": "\n                \n                    Forecast: <b>{!ForecastCategory}</b>\n                    <br/>\n                    Deal Size: <b>{!Amount}</b>\n                    <br/>\n                    Current Stage: <b>{!StageName}</b>\n                    <br/>\n                    Close Date: <b>{!CloseDate}</b>\n                \n            "
+  },
+  {
+    "ext_id": "opp_upd_close_date_high_risk",
+    "name": "Update Close Date",
+    "explanation": "\n                \n                    There is a high risk of not closing this deal on ' + {!CloseDate} +'. <br/>Recommended: Changing the close date.\n                \n            ",
+    "summary": "\n                \n                    Forecast: <b>{!ForecastCategory}</b>\n                    <br/>\n                    Deal Size: <b>{!Amount}</b>\n                    <br/>\n                    Current Stage: <b>{!StageName}</b>\n                    <br/>\n                    Close Date: <b>{!CloseDate}</b>\n                \n            "
+  },
+  {
+    "ext_id": "opp_upd_close_date_missed",
+    "name": "Update Close Date",
+    "explanation": "\n                \n                    The planned close date ' + {!CloseDate} +' of this deal passed. <br/>Recommended: Updating the close date.\n                \n            ",
+    "summary": "\n                \n                    Forecast: <b>{!ForecastCategory}</b>\n                    <br/>\n                    Deal Size: <b>{!Amount}</b>\n                    <br/>\n                    Current Stage: <b>{!StageName}</b>\n                    <br/>\n                    Close Date: <b>{!CloseDate}</b>\n                \n            "
+  }
+]

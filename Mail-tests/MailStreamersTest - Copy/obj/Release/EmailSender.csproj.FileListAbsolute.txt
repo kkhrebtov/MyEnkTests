@@ -1,0 +1,14 @@
+D:\depot\Dev\AT\branches\2013.02.25\AttributeTest\Tests\Enkata.AT.Testing\EmailSender\bin\Release\EmailSender.pdb
+D:\depot\Dev\AT\branches\2013.02.25\AttributeTest\Tests\Enkata.AT.Testing\EmailSender\bin\Release\NetOffice.dll
+D:\depot\Dev\AT\branches\2013.02.25\AttributeTest\Tests\Enkata.AT.Testing\EmailSender\bin\Release\OfficeApi.dll
+D:\depot\Dev\AT\branches\2013.02.25\AttributeTest\Tests\Enkata.AT.Testing\EmailSender\bin\Release\VBIDEApi.dll
+D:\depot\Dev\AT\branches\2013.02.25\AttributeTest\Tests\Enkata.AT.Testing\EmailSender\bin\Release\NetOffice.xml
+D:\depot\Dev\AT\branches\2013.02.25\AttributeTest\Tests\Enkata.AT.Testing\EmailSender\bin\Release\OfficeApi.xml
+D:\depot\Dev\AT\branches\2013.02.25\AttributeTest\Tests\Enkata.AT.Testing\EmailSender\bin\Release\VBIDEApi.xml
+D:\depot\Dev\AT\branches\2013.02.25\AttributeTest\Tests\Enkata.AT.Testing\EmailSender\obj\Release\EmailSender.pdb
+D:\depot\Dev\AT\branches\2013.02.25\AttributeTest\Tests\Enkata.AT.Testing\EmailSender\bin\Release\EmailSender.dll
+D:\depot\Dev\AT\branches\2013.02.25\AttributeTest\Tests\Enkata.AT.Testing\EmailSender\obj\Release\EmailSender.dll
+D:\depot\Dev\AT\branches\2013.02.25\AttributeTest\Tests\Enkata.AT.Testing\EmailSender\bin\Release\nunit.framework.dll
+D:\depot\Dev\AT\branches\2013.02.25\AttributeTest\Tests\Enkata.AT.Testing\EmailSender\bin\Release\nunit.framework.xml
+D:\depot\Dev\AT\branches\2013.02.25\AttributeTest\Tests\Enkata.AT.Testing\EmailSender\obj\Release\EmailSender.csproj.ResolveComReference.cache
+D:\depot\Dev\AT\branches\2013.02.25\AttributeTest\Tests\Enkata.AT.Testing\EmailSender\obj\Release\EmailSender.csprojResolveAssemblyReference.cache

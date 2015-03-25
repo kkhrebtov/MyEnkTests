@@ -1,0 +1,8 @@
+D:\Git\mail-streamers-tests\EmailSender\bin\Debug\EmailSender.dll
+D:\Git\mail-streamers-tests\EmailSender\bin\Debug\EmailSender.pdb
+D:\Git\mail-streamers-tests\EmailSender\bin\Debug\nunit.framework.dll
+D:\Git\mail-streamers-tests\EmailSender\bin\Debug\nunit.framework.xml
+D:\Git\mail-streamers-tests\EmailSender\obj\Debug\EmailSender.csprojResolveAssemblyReference.cache
+D:\Git\mail-streamers-tests\EmailSender\obj\Debug\EmailSender.csproj.ResolveComReference.cache
+D:\Git\mail-streamers-tests\EmailSender\obj\Debug\EmailSender.dll
+D:\Git\mail-streamers-tests\EmailSender\obj\Debug\EmailSender.pdb

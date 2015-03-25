@@ -1,0 +1,36 @@
+[
+    {
+        "ext_id": "action_add_contact",
+        "name": "Add Contact"
+    },
+    {
+        "ext_id": "action_change_close_date",
+        "name": "Change Close Date"
+    },
+    {
+        "ext_id": "action_close_lead",
+        "name": "Close Lead"
+    },
+    {
+        "ext_id": "action_close_opp",
+        "name": "Close Opportunity"
+    },
+    {
+        "ext_id": "action_involve_more_people",
+        "name": "Involve More People"
+    },
+    {
+        "ext_id": "action_make_call",
+        "name": "Make & Log Call"
+    },
+    {
+        "ext_id": "action_send_mail",
+        "name": "Send Email"
+    },
+    {
+        "ext_id": "action_set_up_meeting",
+        "name": "Set Up Meeting"
+    }
+]
+
+

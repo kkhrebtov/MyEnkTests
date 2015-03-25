@@ -1,0 +1,63 @@
+[
+    {
+        "ext_id": "opp_deal_unlikely",
+        "name": "Committed Deal Unlikely",
+        "explanation": "The committed deal &quot;{!Name} ({!Amount})&quot; is under risk. Customer Engagement is low and the deal is unlikely to close on the expected date {!CloseDate}. <br/>Enkata recommends taking an action on this deal ASAP.<br/>",
+        "summary": "Forecast: <b>{!ForecastCategoryName}</b><br/>Deal Size: <b>{!Amount}</b><br/>Current Stage: <b>{!StageName}</b><br/>Close Date: <b>{!CloseDate}</b>"
+    },
+    {
+        "ext_id": "opp_increase_scope",
+        "name": "Not Enough Communication",
+        "explanation": "nThe &quot;{!Name} ({!Amount})&quot; is lacking communication with the client.Last communication took place {!CreatedDate}.<br/>Enkata recommends taking an action on this deal ASAP.",
+        "summary": "Forecast: <b>{!ForecastCategoryName}</b><br/>Deal Size: <b>{!Amount}</b><br/>Current Stage: <b>{!StageName}</b><br/>Close Date: <b>{!CloseDate}</b>"
+    },
+    {
+        "ext_id": "opp_time_to_call",
+        "name": "Time to Call",
+        "explanation": "You have been trying to reach contacts via email for a while but without success.<br/> Recommended: Calling them instead.",
+        "summary": "Forecast: <b>{!ForecastCategoryName}</b><br/>Deal Size: <b>{!Amount}</b><br/>Current Stage: <b>{!StageName}</b><br/>Close Date: <b>{!CloseDate}</b>"
+    },
+    {
+        "ext_id": "amountincrease",
+        "name": "Amount Increase Possible",
+        "explanation": "The &quot;{!Name} ({!Amount})&quot; is likely to be extended. Looks like {!Account.Name} can afford to spend 10% more.<br/>Enkata recommends taking an action on this deal ASAP.",
+        "summary": "Forecast: <b>{!ForecastCategoryName}</b><br/>Deal Size: <b>{!Amount}</b><br/>Current Stage: <b>{!StageName}</b><br/>Close Date: <b>{!CloseDate}</b>"
+    },
+    {
+        "ext_id": "opp_time_to_touch_base",
+        "name": "Time to Touch Base",
+        "explanation": "You have not communicated with contacts for a while. <br/>Recommended: Reaching out to contacts.",
+        "summary": "Forecast: <b>{!ForecastCategoryName}</b><br/>Deal Size: <b>{!Amount}</b><br/>Current Stage: <b>{!StageName}</b><br/>Close Date: <b>{!CloseDate}</b><br/>"
+    },
+
+    {
+        "ext_id": "lead_eval_lead_for_close",
+        "name": "Evaluate Lead for Closing",
+        "explanation": "This lead has not been touched for a long time. Recommended: Closing this lead as disqualified.",
+        "summary":"Status: <b>{!LeadStatus}</b></br>Source: <b>LeadSourceValue</b><br>Create Date: <b>CreateDate</b>"
+    },
+    {
+        "ext_id": "lead_time_to_touch_base",
+        "name": "Time to Touch Base",
+        "explanation": "You have not communicated with the lead for a while. Recommended: Reaching out to the lead.",
+        "summary":"Status: <b>{!LeadStatus}</b></br>Source: <b>LeadSourceValue</b><br>Create Date: <b>CreateDate</b>"
+    },
+    {
+        "ext_id": "lead_time_to_call",
+        "name": "Time to Call",
+        "explanation": "You have been trying to reach the lead via email multiple times but without success. Recommended: Calling them instead.",
+        "summary":"Status: <b>{!LeadStatus}</b></br>Source: <b>LeadSourceValue</b><br>Create Date: <b>CreateDate</b>"
+    },
+    {
+        "ext_id": "lead_take_action",
+        "name": "New Lead - Take Action",
+        "explanation": "This is a new lead for which you have not taken any action yet. Recommended: Emailing or calling the lead.",
+        "summary":"Status: <b>{!LeadStatus}</b></br>Source: <b>LeadSourceValue</b><br>Create Date: <b>CreateDate</b>"
+    }
+
+
+
+
+
+
+]

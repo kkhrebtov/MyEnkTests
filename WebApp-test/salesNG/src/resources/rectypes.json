@@ -1,0 +1,56 @@
+[
+    {
+        "ext_id": "PSey8gx88UqYx36Rt6R1LQ",
+        "name": "Add Contact",
+        "explanation": "There are no contacts on an opportunity and account. Recommended: Adding contacts.",
+        "summary": "Forecast: {!ForecastCategory} Deal Size: ${!Amount} Current Stage: {!StageName} Close Date: {!CloseDate}"
+    },
+    {
+        "ext_id": "PSey8gx88UqYx36Rt6R2LQ",
+        "name": "Deal Unlikely - Take Action",
+        "explanation": "This deal is under risk because Customer Engagement is low. Recommended: Taking an action on this deal ASAP.",
+        "summary": "Forecast: {!ForecastCategory} Deal Size: ${!Amount} Current Stage: {!StageName} Close Date: {!CloseDate}"
+    },
+    {
+        "ext_id": "PSey8gx88UqYx36Rt6R3LQ",
+        "name": "Evaluate Lead for Closing",
+        "explanation": "This lead has not been touched for a long time. Recommended: Closing this lead as disqualified.",
+        "summary": "Forecast: {!ForecastCategory} Deal Size: ${!Amount} Current Stage: {!StageName} Close Date: {!CloseDate}"
+    },
+    {
+        "ext_id": "PSey8gx88UqYx36Rt6R4LQ",
+        "name": "Evaluate Opportunity for Closing",
+        "explanation": "This deal has not been touched for a long time. Recommended: Closing this opportunity as lost.",
+        "summary": "Forecast: {!ForecastCategory} Deal Size: ${!Amount} Current Stage: {!StageName} Close Date: {!CloseDate}"
+    },
+    {
+        "ext_id": "PSey8gx88UqYx36Rt6R5LQ",
+        "name": "Increase Scope of Interactions",
+        "explanation": "Only one contact from {!Account.Name} is involved in communication. Recommended: Contacting other people who will participate in making a purchase decision.",
+        "summary": "Forecast: {!ForecastCategory} Deal Size: ${!Amount} Current Stage: {!StageName} Close Date: {!CloseDate}"
+    },
+    {
+        "ext_id": "PSey8gx88UqYx36Rt6R6LQ",
+        "name": "New Lead - Take Action",
+        "explanation": "This is a new lead for which you have not taken any action yet. Recommended: Emailing or calling the lead.",
+        "summary": "Forecast: {!ForecastCategory} Deal Size: ${!Amount} Current Stage: {!StageName} Close Date: {!CloseDate}"
+    },
+    {
+        "ext_id": "PSey8gx88UqYx36Rt6R7LQ",
+        "name": "Time to Call",
+        "explanation": "You have been trying to reach contacts via email for a while but without success. Recommended: Calling them instead.",
+        "summary": "Forecast: {!ForecastCategory} Deal Size: ${!Amount} Current Stage: {!StageName} Close Date: {!CloseDate}"
+    },
+    {
+        "ext_id": "PSey8gx88UqYx36Rt6R8LQ",
+        "name": "Time to Touch Base",
+        "explanation": "The last activity on the deal was taken a long time ago. Recommended: Reaching out contacts to keep the deal on track.",
+        "summary": "Forecast: {!ForecastCategory} Deal Size: ${!Amount} Current Stage: {!StageName} Close Date: {!CloseDate}"
+    },
+    {
+        "ext_id": "PSey8gx88UqYx36Rt6R9LQ",
+        "name": "Update Close Date",
+        "explanation": "There is a high risk of not closing this deal on {!CloseDate}. Recommended: Changing the close date.",
+        "summary": "Forecast: {!ForecastCategory} Deal Size: ${!Amount} Current Stage: {!StageName} Close Date: {!CloseDate}"
+        }
+]

@@ -1,0 +1,166 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+
+    <parameter name="enkataUrlRecType" value="https://na16.salesforce.com/services/apexrest/EnkataNGDev/RecommendationType"/>
+    <parameter name="enkataUrlRecAction" value="https://na16.salesforce.com/services/apexrest/EnkataNGDev/RecommendationAction"/>
+    <parameter name="enkataUrlRecommendation" value="https://na16.salesforce.com/services/apexrest/EnkataNGDev/Recommendation"/>
+    <parameter name="enkataUrlActivity" value="https://na16.salesforce.com/services/apexrest/EnkataNGDev/Activity"/>
+    <parameter name="enkataUrlContact" value="https://na16.salesforce.com/services/apexrest/EnkataNGDev/Contact"/>
+    <parameter name="enkataLumenApi" value="https://deve2eapi.enkata.com/api/integration/sf/inbound/f3176e42-6d25-4ee0-a6a9-7acef78152c0/recommendations"/>
+    <parameter name="enkataLumenApiActivities" value="https://deve2eapi.enkata.com/api/integration/sf/inbound/f3176e42-6d25-4ee0-a6a9-7acef78152c0/activities"/>
+    <parameter name="enkataLumenApiContacts" value="https://deve2eapi.enkata.com/api/integration/sf/inbound/f3176e42-6d25-4ee0-a6a9-7acef78152c0/contacts"/>
+
+    <parameter name="etlRecActionsApi" value="https://deve2eapi.enkata.com/api/integration/outbound/tenant/f3176e42-6d25-4ee0-a6a9-7acef78152c0/recommendation-actions"/>
+    <parameter name="etlRecTypesApi" value="https://deve2eapi.enkata.com/api/integration/outbound/tenant/f3176e42-6d25-4ee0-a6a9-7acef78152c0/recommendation-types"/>
+
+    <parameter name="tenantId" value="f3176e42-6d25-4ee0-a6a9-7acef78152c0"/>
+
+    <test name="Recommendations" preserve-order="true">
+    <classes>
+       <class name="apitest.SFAPIRecommendations">
+            <methods>
+                <!--include name="createRecTypeFromFile" />
+                <include name="createNewActionFromFile" />
+                <include name="createRecommendationFromFile" />
+                <include name="createNewRecType" />
+                <include name="upsertRecType" />
+                <include name="createSeveralRecTypes" />
+                <include name="upsertSeveralRecTypes" />
+                <include name="upsertInsertSeveralRecTypes" />
+                <include name="createNewAction" />
+                <include name="upsertAction" />
+                <include name="createSeveralActions" />
+                <include name="upsertSeveralActions" />
+                <include name="createNewRecommendation" />
+                <include name="updateRecommendation" />
+                <include name="createMultipleRecommendations" />
+                <include name="updateMultipleRecommendations" />
+                <include name="newRecWithContact" /-->
+                <!--include name="newLeadRecType" />
+                <include name="updateLeadRecType" />
+                <include name="newLeadRecAction" />
+                <include name="updateLeadRecAction" />
+                <include name="newLeadRecommendation" />
+                <include name="newLeadRecommendationWithContact" /-->
+                <include name="sortTest" />
+                <!--include name="demoRecommendations" /-->
+
+            </methods>
+        </class>
+
+       <class name="apitest.SFAPIActivitiesContacts">
+            <methods>
+             <include name="activitiesFromFile" />
+             <include name="longFieldsActivity" />
+             <!--include name="createNewActivity" />
+             <include name="updateActivity" />
+             <include name="createSeveralActivities" />
+             <include name="updateSeveralActivities" />
+             <include name="newAndUpdateActivities" />
+             <include name="fourNewActivities" />
+             <include name="activityWrongFieldNameSubject" />
+             <include name="activityWrongFieldNameExtId" />
+             <include name="activityWrongFieldNameWhoId" />
+             <include name="activityWrongFieldNameDescr" />
+             <include name="activityWrongFieldNameOwnerId" />
+             <include name="activityWrongFieldNameWhatId" />
+             <include name="activityWrongFieldNameActivityDate" />
+             <include name="ActivityWrongDateFormat" />
+             <include name="ActivityTooLongDescr" />
+             <include name="activityWrongFieldWhoIdWhatId" /-->
+             <include name="createNewContact" />
+             <!--include name="createNewContactWithSameEmail" />
+             <include name="updateContact" />
+             <include name="newContactWithSameEmailAndAccountId" />
+             <include name="createSeveralContacts" />
+             <include name="createSeveralContactsWithSameEmail" />
+             <include name="updateSeveralContacts" />
+             <include name="contactWrongFieldNameFirstName" />
+             <include name="contactWrongFieldNameLastName" />
+             <include name="contactWrongFieldNameAccountId" />
+             <include name="contactWrongFieldNameEmail" />
+             <include name="contactWrongFieldNamePhone" />
+             <include name="contactWrongFieldNameTitle" />
+             <include name="contactWrongFieldNameExtId" />
+             <include name="contactWrongFieldNameDateDiscovered" />
+             <include name="contactWrongFieldNameDescr" />
+             <include name="contactWrongEmailAddress" />
+             <include name="contactWrongDateFormat" />
+             <include name="contactTooLongDescription" />
+             <include name="contactWithInvalidAccountId" /-->
+
+            </methods>
+       </class>
+
+       <!--class name="apitest.EWSRecommendations">
+            <methods>
+                <include name="newRecsFromfile" />
+                <include name="createNewRecommendation" />
+                <include name="updateRecommendation" />
+                <include name="createMultipleRecommendations" />
+                <include name="updateMultipleRecommendations" />
+                <include name="wrongAuthorizationHeader" />
+            </methods>
+        </class-->
+
+       <!--class name="apitest.ETLRecommendations">
+            <methods>
+                <include name="getActions" />
+                <include name="getTypes" />
+
+            </methods>
+       </class-->
+
+       <!--class name="apitest.EWSActivities">
+            <methods>
+                <include name="createNewActivity" />
+                <include name="upsertActivity" />
+                <include name="createSeveralActivities" />
+                <include name="updateSeveralActivities" />
+                <include name="newAndUpdateActivities" />
+                <include name="fourNewActivities" />
+                <include name="activityWrongFieldNameSubject" />
+                <include name="activityWrongFieldNameExtId" />
+                <include name="activityWrongFieldNameWhoId" />
+                <include name="activityWrongFieldNameDescr" />
+                <include name="activityWrongFieldNameOwnerId" />
+                <include name="activityWrongFieldNameWhatId" />
+                <include name="activityWrongFieldNameActivityDate" />
+                <include name="ActivityWrongDateFormat" />
+                <include name="ActivityTooLongDescr" />
+                <include name="activityWrongFieldWhoIdWhatId" />
+                <include name="activitiesFromFile" />
+            </methods>
+       </class-->
+
+       <!--class name="apitest.EWSContacts">
+            <methods>
+                <include name="createNewContact" />
+                <include name="createNewContactWithSameEmail" />
+                <include name="updateContact" />
+                <include name="newContactWithSameEmailAndAccountId" />
+                <include name="createSeveralContacts" />
+                <include name="createSeveralContactsWithSameEmail" />
+                <include name="updateSeveralContacts" />
+                <include name="contactWrongFieldNameFirstName" />
+                <include name="contactWrongFieldNameLastName" />
+                <include name="contactWrongFieldNameAccountId" />
+                <include name="contactWrongFieldNameEmail" />
+                <include name="contactWrongFieldNamePhone" />
+                <include name="contactWrongFieldNameTitle" />
+                <include name="contactWrongFieldNameExtId" />
+                <include name="contactWrongFieldNameDateDiscovered" />
+                <include name="contactWrongFieldNameDescr" />
+                <include name="contactWrongEmailAddress" />
+                <include name="contactWrongDateFormat" />
+                <include name="contactTooLongDescription" />
+                <include name="contactWithInvalidAccountId" />
+            </methods>
+       </class-->
+
+
+    </classes>
+</test>
+</suite>
+
